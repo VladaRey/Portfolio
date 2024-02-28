@@ -6,6 +6,7 @@
 
 body {
   margin-top: 90px;
+  margin-bottom: 60px;
 }
 
 h1,
@@ -95,6 +96,26 @@ a:hover {
 .email-link:hover {
   text-decoration: underline;
 }
-.navbar-brand {
-  margin-left: 30px;
+@media (max-width: 576px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    text-align: center;
+  }
+  .responsive-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
+  .email-link {
+    font-size: 20px;
+  }
 }
