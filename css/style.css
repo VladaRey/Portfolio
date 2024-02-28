@@ -47,7 +47,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-
+a:hover {
+  text-decoration: none;
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -92,4 +94,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.navbar-brand {
+  margin-left: 30px;
 }
