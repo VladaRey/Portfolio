@@ -57,6 +57,7 @@ p {
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
+  line-height: 1.5;
 }
 
 a:hover {
@@ -119,6 +120,7 @@ a:hover {
 @media (max-width: 576px) {
   h1 {
     font-size: 44px;
+    line-height: 1.5;
   }
   h2 {
     font-size: 34px;
@@ -147,5 +149,21 @@ a:hover {
   }
   .email-link {
     font-size: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
   }
 }
