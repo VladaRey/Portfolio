@@ -128,6 +128,12 @@ margin-top: 80px;
   .about-me {
     text-align: left;
   }
+  .contact-me {
+    width: auto;
+  }
+  .contact-me h2, p {
+    text-align: left;
+  }
   .responsive-link {
     display: block;
     margin: 0 20px;
