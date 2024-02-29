@@ -11,7 +11,6 @@ body {
 
 h1,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -26,6 +25,10 @@ h2 {
 
 h3 {
   font-size: 24px;
+  opacity: 0.7;
+  text-align: center;
+}
+h4 {
   opacity: 0.7;
 }
 
@@ -74,15 +77,6 @@ a:hover {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-  text-align: center;
-}
-
-.about-paragraphs p {
-  margin: 10px;
 }
 
 .email-link {
