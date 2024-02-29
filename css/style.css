@@ -11,11 +11,6 @@ body {
   margin-bottom: 30px;
   font-family: var(--default-font-family);
 }
-.hero {
-  padding: 120px 20px;
-  text-align: center;
-  background: #f5f2fe;
-}
 h1,
 h2,
 h3,
@@ -25,6 +20,33 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   color: black;
+}
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  text-align: center;
+}
+h4 {
+  opacity: 0.7;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+  background: #f5f2fe;
 }
 .hero p {
   font-size: 36px;
@@ -36,75 +58,33 @@ h6 {
   font-size: 24px;
   font-weight: normal;
 }
-h1 {
-  font-size: 96px;
-}
 
-h2 {
-  font-size: 48px;
-}
-
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
-  text-align: center;
-}
-h4 {
-  opacity: 0.7;
-}
-.header {
-  margin-left: 70px;
-}
-p {
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
 a:hover {
   text-decoration: none;
 }
-.primary-link {
+
+.btn-branding {
   border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+  padding: 15px 30px;
+  font-size: 18px;
+  line-height: 27px;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
-.secondary-link {
+.btn-branding-outline {
   border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
+  padding: 15px 30px;
+  font-size: 18px;
+  line-height: 27px;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .email-link {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
@@ -113,7 +93,9 @@ a:hover {
 .email-link:hover {
   text-decoration: underline;
 }
-
+.project-description {
+  padding: 120px 60px;
+}
 .contact-me {
   width: 800px;
   padding: 40px;
@@ -132,9 +114,6 @@ a:hover {
 }
 .social-media div {
   margin: 0 10px;
-}
-.details {
-  margin-bottom: 40px;
 }
 
 @media (max-width: 576px) {
@@ -161,7 +140,7 @@ a:hover {
   p {
     text-align: left;
   }
-  .responsive-link {
+  .btn {
     display: block;
     margin: 0 20px;
     text-align: center;
