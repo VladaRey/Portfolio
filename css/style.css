@@ -33,7 +33,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-  text-align: center;
 }
 h4 {
   opacity: 0.7;
@@ -125,13 +124,6 @@ a:hover {
 }
 .project-description {
   padding: 120px 60px;
-}
-.contact-me {
-  width: 800px;
-  padding: 40px;
-  margin: 80px 20px 20px 60px;
-  background: #f5f2fe;
-  border-radius: 8px;
 }
 
 .contact-information {
