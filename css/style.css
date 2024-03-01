@@ -43,6 +43,19 @@ p {
   line-height: 30px;
 }
 
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #6c63ff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
 .hero {
   padding: 150px 20px;
   text-align: center;
