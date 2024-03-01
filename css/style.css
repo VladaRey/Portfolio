@@ -97,6 +97,12 @@ a:hover {
   line-height: 27px;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  background: var(--primary-color);
+  color: white;
 }
 
 .content-container h2 {
