@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I am Vlada Podzirei, Front-end developer, and this is my portfolio"
+    />
+    <title>Vladyslava Podzirey | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav_items">
+        <a href="#" class="logo"><span>Vlada Podzirei</span></a>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+    <section class="hero" id="home">
+      <div class="hero_container">
+        <div class="media-icons">
+          <a
+            href="https://www.linkedin.com/in/vladyslava-podzirei-528970322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target="_blank"
+            title="Linkedin profile"><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/_slava_moon?igsh=MXZlOHIxMDJxejIxaA%3D%3D&utm_source=qr"
+            target="_blank"
+            title="Instagram profile"><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/VladaRey" target="_blank"
+            title="GitHub profile"><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="hero_info">
+          <p class="subtitle">HELLO</p>
+          <h1>
+            I'm <span>Vladyslava<br />a</span> Frontend Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Vladyslava, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites.
+          </p>
+          <div>
+            <a href="#projects" class="btn">Portfolio</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/photo_of_me.jpg" alt="Vlada" />
+        </div>
+      </div>
+      <a href="#about" class="scroll-down"
+        >Scroll down <i class="fa-solid fa-arrow-down"></i
+      ></a>
+    </section>
+    <section class="about" id="about">
+      <div class="section_title">
+        <p>Get To Know More</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about_container">
+        <div class="about_content">
+          <div class="about-info">
+            <p class="about-title">
+              I'm Frontend developer, based in Ukraine 🇺🇦
+            </p>
+            <p class="description">
+              I've been studying Frontend for about six months, I've mastered
+              the skills of working with HTML, CSS and Java Script. I also have
+              knowledge of working with React, Bootstrap.
+            </p>
+            <div>
+              <a href="#" class="download-button" onClick="window.open('assets/CV.docx')"
+                >Download CV <i class="fa-solid fa-download"></i
+              ></a>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="progress-box">
+              <div class="skill_title">HTML</div>
+              <div class="progress">
+                <div class="progress_bar bar-1"></div>
+                <div class="progress_number num-1">85%</div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <div class="skill_title">CSS</div>
+              <div class="progress">
+                <div class="progress_bar bar-2"></div>
+                <div class="progress_number num-2">70%</div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <div class="skill_title">JAVASCRIPT</div>
+              <div class="progress">
+                <div class="progress_bar bar-3"></div>
+                <div class="progress_number num-3">60%</div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <div class="skill_title">REACT</div>
+              <div class="progress">
+                <div class="progress_bar bar-4"></div>
+                <div class="progress_number num-4">50%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="section_title">
+        <p>Browse My Recent</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="assets/weather-project.jpg" alt="Weather project" />
+          <h3>Weather Project</h3>
+          <p>
+            Buit with HTML, CSS and JavaScript
+          </p>
+          <div class="btn-group">
+            <div><a href="https://my-awesome-weather-app.netlify.app/" class="project-btn" target="_blank">Live Demo</a></div>
+            <div><a href="https://github.com/VladaRey/Weather-app" class="project-btn" target="_blank">GitHun Repo</a></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="assets/weather-react-project.jpg"
+            alt="Weather React Project"
+          />
+          <h3>Weather React Project</h3>
+          <p>
+            Buit with HTML, CSS, JavaScript and React
+          </p>
+          <div class="btn-group">
+            <div><a href="https://react-weather-awesome-app.netlify.app/" class="project-btn" target="_blank">Live Demo</a></div>
+            <div><a href="https://github.com/VladaRey/react-weather-app" class="project-btn" target="_blank">GitHun Repo</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="section_title">
+        <p>Let's Get In Touch</p>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-box">
+        <div class="contact-info">
+          <i class="fa-regular fa-envelope"></i>
+          <a href="mailto:vladapodzirey@gmail.com" title="Email"
+            target="_blank">vladapodzirey@gmail.com</a
+          >
+        </div>
+        <div class="contact-info">
+          <i class="fa-brands fa-linkedin"></i>
+          <a
+            href="https://www.linkedin.com/in/vladyslava-podzirei-528970322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            title="Linkedin profile"
+            target="_blank">Linkedin</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <p class="copyright">© All Rights Reserved | Vlada Podzirey</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
