@@ -582,15 +582,6 @@ footer ul li a {
 
 
 @media screen and (max-width:576px){
-  .nav_items{
-    padding: 1rem;
-  }
-  nav .nav_items .logo {
-    font-size: 1rem;
-  }
-  nav #menu-icon{
-    font-size: 1.4rem;
-  }
   .project-card img{
     width: 60vw;
   }
@@ -599,6 +590,7 @@ footer ul li a {
 @media screen and (max-width: 768px) {
   nav #menu-icon {
     display: block;
+    font-size: 1.4rem;
   }
   nav .nav_links {
     position: absolute;
@@ -622,11 +614,11 @@ footer ul li a {
     display: block;
   }
   nav .nav_items {
-    padding: 1rem 2rem;
-    gap: 4rem;
+    padding: 1rem;
+    gap: 2rem;
   }
   nav .nav_items .logo {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -667,12 +659,6 @@ footer ul li a {
 .skills{
   grid-template-columns: repeat(1, 1fr);
 }
-}
-
-@media screen and (max-width: 1200px){
-  .project-card img{
-    width: 30vw;
-  }
 }
 
 @media screen and (min-width: 992px) {
