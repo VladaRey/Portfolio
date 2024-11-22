@@ -34,7 +34,7 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   backdrop-filter: blur(8);
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 3rem;
   z-index: 1000;
 }
@@ -582,8 +582,17 @@ footer ul li a {
 
 
 @media screen and (max-width:576px){
+  .nav_items{
+    padding: 1rem;
+  }
   nav .nav_items .logo {
     font-size: 1rem;
+  }
+  nav #menu-icon{
+    font-size: 1.4rem;
+  }
+  .project-card img{
+    width: 60vw;
   }
 }
 
@@ -623,7 +632,7 @@ footer ul li a {
     grid-template-columns: repeat(1, 1fr);
   }
   .project-card img {
-  width: 60vw; 
+  width: 55vw; 
   }
   .contact{
     height: 50vh;
@@ -658,6 +667,12 @@ footer ul li a {
 .skills{
   grid-template-columns: repeat(1, 1fr);
 }
+}
+
+@media screen and (max-width: 1200px){
+  .project-card img{
+    width: 30vw;
+  }
 }
 
 @media screen and (min-width: 992px) {
