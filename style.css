@@ -37,6 +37,7 @@ body {
   padding: 1rem 1.5rem;
   border-radius: 3rem;
   z-index: 1000;
+  min-width: 200px;
 }
 
 .logo {
