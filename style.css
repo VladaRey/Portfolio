@@ -40,7 +40,7 @@ body {
 }
 
 .logo {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #fff;
   text-wrap: nowrap;
   font-weight: 600;
@@ -78,7 +78,7 @@ li a:hover::before {
 }
 
 #menu-icon {
-  font-size: 2rem;
+  font-size: 1.7rem;
   display: none;
 }
 
@@ -609,18 +609,51 @@ footer ul li a {
     display: block;
   }
   nav .nav_items {
-    padding: 1rem 3rem;
-    gap: 8rem;
+    padding: 1rem 2rem;
+    gap: 4rem;
   }
   nav .nav_items .logo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
   }
   .project-card img {
-  width: 30vw; 
+  width: 60vw; 
   }
+  .contact{
+    height: 50vh;
+  }
+  .contact-box{
+    flex-direction: column;
+    padding: 2rem;
+    width: 250px;
+    gap: 2rem;
+  }
+  .contact-box .contact-info{
+    gap: 0.5rem;
+    justify-content: start;
+  }
+  .section_title h2 {
+    font-size: 2.5rem;
+}
+.about{
+  min-height: 70vh;
+  padding: 1rem 2rem;
+}
+.about_container{
+  padding: 1rem;
+}
+.hero{
+  padding: 3rem 2rem;
+}
+.hero_info h1{
+  line-height: 3rem;
+  font-size: 2.5rem;
+}
+.skills{
+  grid-template-columns: repeat(1, 1fr);
+}
 }
 
 @media screen and (min-width: 992px) {
